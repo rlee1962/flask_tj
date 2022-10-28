@@ -7,6 +7,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS
+		================================================== -->
+	<!-- Fontawesome Icon font -->
+	<link rel="stylesheet" href="/static/plugins/themefisher-font/style.css">
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" href="/static/plugins/bootstrap/bootstrap.min.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="/static/plugins/animate-css/animate.css">
+	<!-- Magnific popup css -->
+	<link rel="stylesheet" href="/static/plugins/magnific-popup/dist/magnific-popup.css">
+	<!-- Slick Carousel -->
+	<link rel="stylesheet" href="/static/plugins/slick-carousel/slick.css">
+	<link rel="stylesheet" href="/static/plugins/slick-carousel/slick-theme.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="/static/css/style.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="/static/css/custom.css">
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
@@ -16,9 +33,9 @@
         <title>Flask Blog</title>
     {% endif %}
 </head>
-<body>
-    <header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+<body >
+  <header id="navigation" class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark px-0">
         <div class="container">
           <a class="navbar-brand mr-4" href="/">Flask Blog</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,14 +76,14 @@
           {% block content %}{% endblock %}
         </div>
         <div class="col-md-4">
-          <div class="content-section">
+          <div class="service-block-sm" style="margin-top:9.5em">
             <h3>Our Sidebar</h3>
             <p class='text-muted'>You can put any information here you'd like.
               <ul class="list-group">
-                <li class="list-group-item list-group-item-light">Latest Posts</li>
-                <li class="list-group-item list-group-item-light">Announcements</li>
-                <li class="list-group-item list-group-item-light">Calendars</li>
-                <li class="list-group-item list-group-item-light">etc</li>
+                <li class="list-group-item list-group-item-dark">Latest Posts</li>
+                <li class="list-group-item list-group-item-dark">Announcements</li>
+                <li class="list-group-item list-group-item-dark">Calendars</li>
+                <li class="list-group-item list-group-item-dark">etc</li>
               </ul>
             </p>
           </div>

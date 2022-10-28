@@ -1,11 +1,20 @@
 body {
-  background: #fafafa;
-  color: #333333;
-  margin-top: 5rem;
+  background: #353B43;
+  color: #737f8a;
+  /* margin-top: 5rem; */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  font-weight: 400;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #afbac4;
+
+  
+}
+.title-spacing {
+  height: 2em;
+  vertical-align: top;
+  margin-top: -1em;
 }
 
 .bg-steel {
