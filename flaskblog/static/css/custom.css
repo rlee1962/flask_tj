@@ -50,3 +50,14 @@
 .list-group-item {
 	border: 1px solid rgba(236, 239, 241, 0.07)
 }
+.form-control-file {
+  font-family: "Anaheim", sans-serif;
+	font-size: 0.85em;
+}
+.alert-success {
+	color: #c8a97f;
+	background-color: #1d2024;
+	border-color: #c8a97f;
+	margin-top: .5em;
+	margin-bottom: -0.5em;
+}
