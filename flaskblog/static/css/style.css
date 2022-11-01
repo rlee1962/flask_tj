@@ -42,12 +42,12 @@ p {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #85602C;
+  background: #976f37;
 }
 
 ::selection {
   color: #fff;
-  background: #85602C;
+  background: #976f37;
 }
 
 ol,
@@ -103,12 +103,16 @@ a:hover {
 }
 
 .btn-transparent {
+  font-weight: 500;
+  letter-spacing: 0.025em;
   border: 1px solid #4e595f;
+  background-color: #1d2024;
 }
 .btn-transparent:hover, .btn-transparent:focus {
-  background-color: #85602C;
-  border-color: #85602C !important;
-  color: #fff;
+  color: #000;
+  font-weight: 600;
+  background-color: #976f37;
+  border-color: #976f37 !important;
 }
 
 .form-control {
@@ -162,9 +166,8 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #85602C;
+  background-color: #976f37;
 }
-
 .color {
   color: #6CB670;
 }
@@ -238,21 +241,22 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #85602C;
+  color: #976f37;
 }
-
 .btn-main {
-  background: #85602C;
-  color: #fff;
+  background: #976f37;
+  color: #000000;
   display: inline-block;
   font-size: 14px;
+  font-weight: 600;
   letter-spacing: 1px;
   padding: 10px 35px;
   text-transform: uppercase;
 }
 .btn-main:hover {
-  background: #2c9091;
-  color: #fff;
+  background: #1d2024;
+  color: #a98f6b;
+  border: 1px solid #a98f6b70;
 }
 
 .mt-20 {
@@ -324,7 +328,7 @@ a:hover {
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #85602C;
+  background-color: #976f37;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
   animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
@@ -399,10 +403,10 @@ a:hover {
   text-transform: capitalize;
   font-weight: 400;
   font-size: 38px;
-  color: #999;
+  color: #000000;
 }
 .title h2 span {
-  color: #85602C;
+  color: #976f37;
 }
 .title p {
   color: #666;
@@ -442,7 +446,7 @@ a:hover {
   font-family: "Quattrocento Sans", sans-serif;
 }
 .header-bradcrumb a:hover {
-  color: #85602C;
+  color: #976f37;
 }
 
 .slick-slide {
@@ -492,7 +496,7 @@ a:hover {
   border-radius: 0 !important;
 }
 .pagination li a:focus, .pagination li a:hover, .pagination li a.active {
-  background: #85602C;
+  background: #976f37;
   color: #fff;
   box-shadow: none;
 }
@@ -545,7 +549,7 @@ a:hover {
   stroke: #77572B;
 }
 .navigation .navigation-menu li a.active {
-  color: #85602C !important;
+  color: #976f37 !important;
 }
 .navigation .navigation-menu a {
   padding-left: 15px !important;
@@ -555,7 +559,7 @@ a:hover {
 }
 .navigation .navigation-menu a:hover, .navigation .navigation-menu a:focus {
   background: transparent;
-  color: #85602C !important;
+  color: #976f37 !important;
 }
 
 .navbar-toggle {
@@ -601,7 +605,7 @@ a:hover {
   line-height: 60px;
   font-size: 20px;
   margin-left: 3px;
-  color: #85602C;
+  color: #976f37;
 }
 .hero-area .block h1 {
   font-size: 90px;
@@ -678,7 +682,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .about .block:hover {
-  border-bottom: 2px solid #85602C;
+  border-bottom: 2px solid #976f37;
 }
 .about .block:hover .icon-box {
   transform: translateY(-10px);
@@ -740,7 +744,7 @@ a:hover {
 }
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #85602C;
+  color: #976f37;
 }
 .about-2 .content-block .media h4 {
   font-size: 16px;
@@ -804,12 +808,12 @@ a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border-color: #85602C;
+  border-color: #976f37;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #85602C;
+  background: #976f37;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -897,7 +901,7 @@ a:hover {
   padding: 30px 0 20px;
 }
 .price-title h3 {
-  color: #85602C;
+  color: #976f37;
   margin: 0 0 10px;
   text-transform: uppercase;
 }
@@ -906,7 +910,7 @@ a:hover {
   font-weight: 400;
 }
 .price-title .value {
-  color: #85602C;
+  color: #976f37;
   font-size: 30px;
 }
 
@@ -945,8 +949,8 @@ a:hover {
   transition: 0.3s all;
 }
 .portfolio-filter button.active {
-  border: 1px solid #85602C;
-  color: #85602C;
+  border: 1px solid #976f37;
+  color: #976f37;
 }
 
 .portfolio-items-wrapper .mix {
@@ -1001,7 +1005,7 @@ a:hover {
   color: #555;
 }
 .portfolio-block .caption .search-icon {
-  background: #85602C;
+  background: #976f37;
   width: 45px;
   height: 45px;
   color: #fff;
@@ -1022,7 +1026,7 @@ a:hover {
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 5px rgb(44 44 44 / 30%), 13px 13px 0 rgb(29 32 36);
 }
 .service-block-sm {
   padding: 60px 30px;
@@ -1030,7 +1034,7 @@ a:hover {
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 1px 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 5px rgb(44 44 44 / 30%), 3px 3px 0 rgb(29 32 36);
 }
 .service-block .service-icon {
   margin-bottom: 10px;
@@ -1052,12 +1056,12 @@ a:hover {
 }
 .service-2 .service-item:hover i {
   background: #fff;
-  color: #85602C;
+  color: #976f37;
 }
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background: #85602C none repeat scroll 0 0;
+  background: #976f37 none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1087,7 +1091,7 @@ a:hover {
   border-radius: 0;
 }
 .skill-bar .progress .progress-bar {
-  background: #85602C;
+  background: #976f37;
 }
 .skill-bar li:not(:last-child) {
   margin-bottom: 25px;
@@ -1128,7 +1132,7 @@ a:hover {
   }
 }
 .member-photo .mask {
-  background-color: rgba(87, 203, 204, 0.7);
+  background-color: rgba(151,111,55, 0.7);
   position: absolute;
   text-align: center;
   height: 100%;
@@ -1146,8 +1150,8 @@ a:hover {
   top: 125px;
 }
 .member-photo .mask ul li a {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid rgb(0, 0, 0,0.75);
+  color: rgb(0, 0, 0,0.75);
   display: block;
   font-size: 20px;
   height: 35px;
@@ -1156,8 +1160,8 @@ a:hover {
   width: 35px;
 }
 .member-photo .mask ul li a:hover {
-  background-color: #fff;
-  color: #85602C;
+  background-color: rgb(0, 0, 0,0.75);
+  color: #976f37;
   border: 1px solid transparent;
 }
 
@@ -1239,7 +1243,7 @@ a:hover {
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-  background-color: #85602C;
+  background-color: #976f37;
   border: 2px solid transparent;
 }
 
@@ -1330,7 +1334,7 @@ a:hover {
   padding: 0 20px 10px;
 }
 .post-meta a {
-  color: #85602C;
+  color: #976f37;
 }
 .post-meta > span {
   color: #666;
@@ -1384,7 +1388,7 @@ a:hover {
   color: #000;
 }
 .next-prev a:hover {
-  color: #85602C;
+  color: #976f37;
 }
 .next-prev .prev-post i {
   margin-right: 10px;
@@ -1403,7 +1407,7 @@ a:hover {
   font-size: 16px;
 }
 .social-profile ul li a i:hover {
-  color: #85602C;
+  color: #976f37;
 }
 
 .comments-section {
@@ -1447,7 +1451,7 @@ a:hover {
   margin-bottom: 8px;
 }
 .comment-wrap .media .media-heading a {
-  color: #85602C;
+  color: #976f37;
   font-size: 13px;
 }
 .comment-wrap .media .comment-meta {
@@ -1468,7 +1472,7 @@ a:hover {
 }
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #85602C;
+  border: 1px solid #976f37;
 }
 .comment-reply-form textarea, .comment-reply-form .btn-main {
   height: auto;
@@ -1487,7 +1491,7 @@ a:hover {
   margin-bottom: 4px;
 }
 .social-icon ul li:hover a {
-  background-color: #85602C;
+  background-color: #976f37;
   transform: rotateY(0deg);
 }
 .social-icon ul li:hover a i {
@@ -1552,8 +1556,8 @@ a:hover {
 }
 
 #scrollUp:hover {
-  background-color: #85602C;
-  border: 1px solid #85602C;
+  background-color: #976f37;
+  border: 1px solid #976f37;
 }
 
 /*=================================================================
